@@ -1,5 +1,6 @@
 import React from 'react';
 import { FiMinus, FiPlus } from 'react-icons/fi';
+
 const Question = ({ id, title, info, handleClick, showInfo }) => {
   return (
     <article className='question'>

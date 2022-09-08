@@ -33,4 +33,5 @@
 
 ## Logique
 
-- dans Review créer un state pour l'index du tableau à afficher, ajouter les événements "click" sur les boutons et déclarer les fonctions pour les gérer
+- dans Review créer un state pour l'index et afficher le premier élément
+- ajouter les événements "click" sur les boutons et déclarer les fonctions pour les gérer

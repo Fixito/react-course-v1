@@ -1,10 +1,10 @@
-#### Idea
+## Idée
 
 [uidesigndaily](https://uidesigndaily.com/posts/sketch-accordion-website-day-1175)
 
-![](./idea.png);
+![](./idea.png)
 
-#### React Icons
+## React Icons
 
 [react icons](https://react-icons.github.io/react-icons/)
 
@@ -18,3 +18,32 @@ const Component = () => {
   return <FaHome className='icon'></FaHome>;
 };
 ```
+
+## Structure du Projet
+
+- App.jsx
+- data.js
+- Question.jsx
+
+## Structure JSX
+
+- App.jsx
+
+  - main
+    - div.container
+      - h3
+      - section.info
+        - data.map et retourner <Question />
+
+- Question.jsx
+
+  - article.question
+    - header
+      - h4
+      - button.btn
+    - p
+
+## Logique
+
+- dans App.jsx créer un state questionID égal à 0.
+- créer une fonction handleClick qui change le state questionID égal à l'id de la question sur laquelle on clique

@@ -10,12 +10,12 @@
 
 ## Structure JSX
 
-- App
+- App.jsx
 
   - main
   - <Tours />
 
-- Tours
+- Tours.jsx
 
   - section
     - div.title
@@ -24,7 +24,7 @@
     - div
       <Tour /> pour chaque voyages
 
-- Tour
+- Tour.jsx
 
   - article.single-tour
     - img
@@ -35,14 +35,14 @@
     - p
     - button.delete-btn
 
-- Loading
+- Loading.jsx
 
   - div.loading
     - h1
 
 ## Logique
 
-- dans Tour, créer un state (booléen) pour savoir si on lit plus ou moins les infos
+- dans Tour, créer un state (booléen) pour savoir si on veut voir plus d'info ou non
 
 - dans App, récupérer les données, créer la fonction pour supprimer un voyage et la passer dans Tours puis dans Tour. Pour le chargement créer un state (booléen). Changer le state à false une fois les données récupérées. Si le state est true, retourner
 
@@ -56,7 +56,7 @@ sinon retourner la liste des voyages
 
 - Si le tableau de voyages est vide retourner
 
-```
+```JS
 <main>
   <div className='title'>
     <h2>no tours left</h2>
@@ -67,4 +67,4 @@ sinon retourner la liste des voyages
 </main>
 ```
 
-- Sur le clique du bouton refresh, appeler la fonction récupère les données
+- Sur le clique du bouton refresh, appeler la fonction pour récupèrer les données
