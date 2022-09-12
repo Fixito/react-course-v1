@@ -4,7 +4,7 @@ const url = 'https://api.github.com/users/QuincyLarson';
 
 const MultipleReturns = () => {
   //! il faut obligatoirement qu'un composant retourne quelque chose
-  //* nous pouvons aussi avoir plusieurs retour et retourner un élément selon une condition
+  //* nous pouvons aussi avoir plusieurs retours et retourner un élément selon une condition
   //* cela rend nos composants plus dynamiques
   const [isLoading, setIsLoading] = useState(true);
   //? il est de convention d'utiliser le préfixe "is" pour des booléens
