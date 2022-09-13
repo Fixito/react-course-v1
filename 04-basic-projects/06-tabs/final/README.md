@@ -23,7 +23,7 @@
         - p.job-date
         - duties.map() et retourner :
           - div.job-desc
-          - p
+            - p
 
 ## Logique
 
