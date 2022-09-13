@@ -38,7 +38,7 @@ const Card = () => {
           {location}
         </p>
         {blog && (
-          <a href={`https://${blog}}]`}>
+          <a href={blog}>
             <MdLink />
             {blog}
           </a>
