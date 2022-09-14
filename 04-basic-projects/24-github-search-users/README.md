@@ -66,19 +66,19 @@ version used - "react-router-dom": "^5.2.0",
 - [Auth0 - Main Docs](https://auth0.com/)
 
 - Create Application
-- Choose : Single Page Web Applications
-- Choose : React
-- Go to Settings Tab
-- Copy/Paste Domain, ClientID - can be public (or use .env)
-- Add Domain -
-  for now http://localhost:3000 (DON'T COPY PASTE FROM URL BAR)
+- Choisir : Single Page Web Applications
+- Choisir : React
+- Aller dans Settings Tab
+- CCopier/Coller Domain, ClientID - peut être publique ou utiliser .env)
+- Ajouter le Domaine -
+  en env dev : http://localhost:3000 (NE PAS COPIER DEPUIS LA BARRE D'URL car cela ajouter un / qui peut causer des bugs plus tard)
 
   - Allowed Callback URLs
   - Allowed Logout URLs
   - Allowed Web Origins
-  - SAVE CHANGES!!!!!!!!!!!!!!!
+  - SAVE CHANGES!
 
-- Connections
+- Authentication
   email,social
 
 - [React SDK Docs](https://auth0.com/docs/libraries/auth0-react)
