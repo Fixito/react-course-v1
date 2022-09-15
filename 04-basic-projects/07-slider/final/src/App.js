@@ -38,6 +38,7 @@ function App() {
       <div className='section-center'>
         {people.map((person, personIndex) => {
           const { id, image, name, title, quote } = person;
+
           let position = 'nextSlide';
 
           if (personIndex === index) {
