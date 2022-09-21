@@ -9,10 +9,10 @@ const Navbar = () => {
   const linksRef = useRef(null);
 
   useEffect(() => {
-    const linksHeight = linksRef.current.getBoundingClientRect();
+    const linksHeight = linksRef.current.getBoundingClientRect().height;
 
     if (showLinks) {
-      linksContainerRef.current.style.height = `${linksHeight.height}px`;
+      linksContainerRef.current.style.height = `${linksHeight}px`;
     } else {
       linksContainerRef.current.style.height = 0;
     }
