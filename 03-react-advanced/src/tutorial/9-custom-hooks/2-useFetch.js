@@ -14,7 +14,7 @@ export const useFetch = (url) => {
     setLoading(false);
   }, [url]);
 
-  //! il y a un warning qui demande d'inclure getProducts dans le tableau de dépendance mais cela provequerait un lopp infini
+  //! il y a un warning qui demande d'inclure getProducts dans le tableau de dépendance mais cela provequerait un loop infini
   //? solution : useCallback qu'on verra plus tard
   useEffect(() => {
     getProducts();

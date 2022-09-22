@@ -1,5 +1,6 @@
 //* fonction reducer
 //* on préfère mettre cette fonction dans un fichier à part étant donnée quelle a plusieurs fonctionnalités
+
 //? c'est dans la fonction reducer qu'on va gérer le state
 //! il faut toujours retourner un state
 export const reducer = (state, action) => {
