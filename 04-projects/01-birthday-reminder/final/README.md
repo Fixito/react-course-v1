@@ -9,26 +9,28 @@
   - main
     - section.container
       - h3
-      - <List />
+      - `<List />`
       - button
 
 - dans List
+
   - <>
-    - article.person
-    - img
-    - div
-      - h4
-      - p
+    - map
+      - article.person
+      - img
+      - div
+        - h4
+        - p
 
 ## Logique
 
 ### List
 
-- dans List mapper à travers people et retourner le JSX
+- dans `<List/>` mapper à travers `people` et retourner le JSX
 
 ### App
 
-- créer un state people et lui affecter le tableau data
+- créer un state `people` et lui affecter le tableau data
 - afficher la longueur du tableau dans le h3
-- passer le state people dans List
-- Lords du click sur le bouton supprimer, changer le state de people pour un tableeau vide
+- passer le state `people` dans `<List/>`
+- Lords du clic sur le bouton supprimer, changer le state de `people` pour un tableau vide
