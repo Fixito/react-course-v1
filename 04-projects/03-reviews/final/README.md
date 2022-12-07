@@ -8,16 +8,16 @@
 
 ## Structure JSX
 
-- App.jsx
+- **App.jsx**
 
   - main
   - section.container
     - div.title
       - h2
       - div.underline
-    - <Review />
+    - `<Review />`
 
-- Review.jsx
+- **Review.jsx**
 
   - article.review
     - div.img-container
@@ -33,5 +33,5 @@
 
 ## Logique
 
-- dans Review créer un state pour l'index et afficher le premier élément
-- ajouter les événements "click" sur les boutons et déclarer les fonctions pour les gérer
+- Dans `<Review/>` créer un state pour l'index et afficher le premier élément
+- Ajouter les événements "click" sur les boutons et déclarer les fonctions pour les gérer
