@@ -10,21 +10,21 @@
 
 ## Structure JSX
 
-- App.jsx
+- **App.jsx**
 
   - main
-  - <Tours />
+  - `<Tours />`
 
-- Tours.jsx
+- **Tours.jsx**
 
   - section
     - div.title
       - h2
       - div.underline
     - div
-      <Tour /> pour chaque voyages
+      { `<Tour />` pour chaque voyages }
 
-- Tour.jsx
+- **Tour.jsx**
 
   - article.single-tour
     - img
@@ -35,24 +35,24 @@
     - p
     - button.delete-btn
 
-- Loading.jsx
+- **Loading.jsx**
 
   - div.loading
     - h1
 
 ## Logique
 
-- dans Tour, créer un state (booléen) pour savoir si on veut voir plus d'info ou non
+- Dans `Tour`, créer un state (booléen) pour savoir si on veut voir plus d'info ou non
 
-- dans App, récupérer les données, créer la fonction pour supprimer un voyage et la passer dans Tours puis dans Tour. Pour le chargement créer un state (booléen). Changer le state à false une fois les données récupérées. Si le state est true, retourner
+- Dans `App`, récupérer les données, créer une fonction pour supprimer un voyage et la passer dans `Tours` puis dans `Tour`. Pour le chargement, créer un state (booléen). Changer le state à false une fois les données récupérées. Si le state est true, retourner
 
-```JS
+```js
 <main>
   <Loading />
 </main>
 ```
 
-sinon retourner la liste des voyages
+sinon retourner la liste des voyages.
 
 - Si le tableau de voyages est vide retourner
 
@@ -67,4 +67,4 @@ sinon retourner la liste des voyages
 </main>
 ```
 
-- Sur le clique du bouton refresh, appeler la fonction pour récupèrer les données
+- Sur le clique du bouton `refresh`, appeler la fonction pour récupèrer les données
