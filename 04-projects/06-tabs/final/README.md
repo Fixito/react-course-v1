@@ -28,6 +28,15 @@
 ## Logique
 
 - Créer un state `loading` pour le chargement
+
+Au chargement, `<App />` retourne :
+
+```js
+<section className='section loading'>
+  <h1>loading...</h1>
+</section>
+```
+
 - Créer un state `jobs` pour le tableau de métiers
 - Créer un state `value` pour l'index
 - Créer une fonction `fetchJobs` qui récupère les données
