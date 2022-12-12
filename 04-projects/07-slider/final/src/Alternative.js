@@ -4,7 +4,7 @@ import { FaQuoteRight } from 'react-icons/fa';
 import data from './data';
 
 function Alternative() {
-  const [people, setPeople] = useState(data);
+  const [people] = useState(data);
   const [index, setIndex] = useState(0);
 
   const nextSlide = () => {
@@ -45,7 +45,7 @@ function Alternative() {
     }, 5000);
 
     return () => clearInterval(slider);
-  }, [index]);
+  }, [index, people.length]);
 
   return (
     <section className='section'>

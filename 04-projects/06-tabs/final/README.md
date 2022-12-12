@@ -9,7 +9,7 @@
 
 ## Structure JSX
 
-- App.jsx
+- **App.jsx**
   - section.section
     - div.title
       - h2
@@ -27,9 +27,9 @@
 
 ## Logique
 
-- créer une state loading pour le chargement
-- créer une state jobs pour le tableau de métiers
-- créer un state value pour l'index
-- créer une fonction fetchJobs qui récupère les données
+- Créer un state `loading` pour le chargement
+- Créer un state `jobs` pour le tableau de métiers
+- Créer un state `value` pour l'index
+- Créer une fonction `fetchJobs` qui récupère les données
 - Afficher le premier élément du tableau
-- sur le clic du bouton de la compagnie afficher l'index du tableau correspondant
+- Sur le clic du bouton de la compagnie afficher l'index du tableau correspondant

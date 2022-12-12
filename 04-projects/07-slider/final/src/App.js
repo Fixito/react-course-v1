@@ -4,7 +4,7 @@ import { FaQuoteRight } from 'react-icons/fa';
 import data from './data';
 
 function App() {
-  const [people, setPeople] = useState(data);
+  const [people] = useState(data);
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
