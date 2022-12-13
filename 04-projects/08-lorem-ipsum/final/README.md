@@ -8,7 +8,7 @@
 
 ## Structure du JSX
 
-- App.jsx
+- **App.jsx**
   - section.section-center
     - h3
     - form.lorem-form
@@ -20,6 +20,10 @@
 
 ## Logique
 
-- créer un state count qui contient le nombre de paragraphes à afficher
-- créer un state text qui contient les data
-- créer une fonction handleSubmit qui change le nombre de paragraphe dans le state text en fonction du state count lors de la soumission du formulaire
+- Créer un state `count` qui contient le nombre de paragraphes à afficher
+- Créer un state `text` qui contient les data
+- Créer une fonction `handleSubmit` qui change le nombre de paragraphe dans le state `text` en fonction du state `count` lors de la soumission du formulaire
+
+Le but est d'afficher les x premiers paragraphes.<br />
+Si count est inférieur à un, on affichera qu'un paragraphe.<br />
+Si count est supérieur à huit, on affichera huit paragraphes.
