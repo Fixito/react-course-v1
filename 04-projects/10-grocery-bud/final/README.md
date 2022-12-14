@@ -22,13 +22,13 @@
 
   - section.section-center
     - form.grocery-form
-      - `<Alert />`
+      - {alert.show && `<Alert {...alert} removeAlert={showAlert} list={list} />`}
       - h3 (grocery bud)
       - div.form-control
         - input.grocery
         - btn.submit-btn
     - div.grocery-container
-      - `<List />`
+      - `<List items={list} removeItem={removeItem} editItem={editItem} />`
       - btn.clear-btn
 
 * **List.jsx**
@@ -42,3 +42,19 @@
 
 - **Alert.jsx**
   - p.alert.alert-success
+
+## Logique
+
+- Dans **App.jsx** intitialiser les states :
+
+```js
+const [name, setName] = useState('');
+const [list, setList] = useState(getLocalStorage());
+const [isEditing, setIsEditing] = useState(false);
+const [editId, setEditId] = useState(null);
+const [alert, setAlert] = useState({
+  show: false,
+  msg: '',
+  type: ''
+});
+```
