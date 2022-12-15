@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 
-// preserves value like useState
-// DOES NOT trigger re-render
-// target DOM nodes/elements
+// préserve valeur comme useState
+// Ne déclenche PAS de rendu
+// cible des éléments dans le DOM
 
 //? l'utilité la plus populaire de useRef est de cibler des éléments du DOM
 const UseRefBasics = () => {
