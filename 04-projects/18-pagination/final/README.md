@@ -38,7 +38,7 @@ const url = 'https://api.github.com/users/john-smilga/followers?per_page=100';
   - h4
   - a.btn
 
-- **Dans paginate.js**
+- **Dans utils.js**
 
 ```js
 const paginate = (followers) => {};
