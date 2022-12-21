@@ -1,5 +1,5 @@
 import React from 'react';
-import Final from './tutorial/10-prop-types';
+import Final from './tutorial/12-memo-useMemo-useCallback';
 
 function App() {
   return (
