@@ -10,7 +10,7 @@ Installer `React Router DOM` :
 npm install react-router-dom
 ```
 
-- Mettre en place le routeer dans `main.jsx`
+- Mettre en place le routeer dans `App.jsx`
 - Créer deux dossiers `pages` et `components`
 
 ## Pages
